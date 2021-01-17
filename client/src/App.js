@@ -4,7 +4,7 @@ function App(){
   let [users,setusers]=useState([])
 
   const loaduser=()=>{
-        axios.get("http://localhost:5000/userslist")
+        axios.get("/userslist")
         .then(function(res){
           console.log(res)
         })
