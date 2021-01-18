@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",    
-    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
-    "build-no-sourcemap": "set GENERATE_SOURCEMAP=false && react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build-no-sourcemap": "GENERATE_SOURCEMAP=falsereact-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
